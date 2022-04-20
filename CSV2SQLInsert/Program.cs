@@ -5,7 +5,7 @@ Console.Title = "CSV to SQL Insert Tool";
 Console.WriteLine("CSV to SQL Insert Tool\n");
 string filePath;
 
-if (args.Length<1 || (filePath = string.Join(" ", args)) == "help" || (filePath = string.Join(" ", args)) == "-h")
+if (args.Length<1 || (filePath = string.Join(" ", args)) == "help" || (filePath) == "-h")
 {
     Console.WriteLine(
         "CSV to SQL Insert Tool\n" +
