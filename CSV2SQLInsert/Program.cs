@@ -1,6 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System.Globalization;
-
 Console.Title = "CSV to SQL Insert Tool";
 Console.WriteLine("CSV to SQL Insert Tool\n");
 string filePath;
